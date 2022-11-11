@@ -1,0 +1,38 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "==1.1.2"
+jinja2 = "==2.11.3"
+markupsafe = "==1.1.1"
+click = "==7.1.2"
+werkzeug = "==0.16.1"
+pygments = "==2.8.1"
+sphinx = "==3.5.4"
+boto3 = "*"
+marshmallow = "==3.10.0"
+zappa = "*"
+pynamodb = "*"
+loguru = "*"
+marshmallow-jsonapi = "*"
+jsonlines = "*"
+flask-rest-jsonapi = "*"
+dnspython = "*"
+lxml = "*"
+netaddr = "*"
+safety = "*"
+pydoc-markdown = "*"
+tldextract = "*"
+python3-nmap = "*"
+requirements-parser = "*"
+bs4 = "*"
+pluginbase = "*"
+insecure-package = "*"
+rule-engine = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
